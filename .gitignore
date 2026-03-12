@@ -7,3 +7,8 @@ dist/ build/ .mypy_cache/ .ruff_cache/
 .ipynb_checkpoints/
 *.png
 Thumbs.db desktop.ini
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+.eggs/
