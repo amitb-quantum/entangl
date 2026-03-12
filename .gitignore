@@ -1,14 +1,11 @@
-.env
-*.pem *.key *.sk
-/home/manager/.entangl/
-__pycache__/ *.pyc
-.pytest_cache/ *.egg-info/
-dist/ build/ .mypy_cache/ .ruff_cache/
-.ipynb_checkpoints/
-*.png
-Thumbs.db desktop.ini
 **/__pycache__/
 **/*.pyc
 **/*.pyo
 *.egg-info/
 .eggs/
+dist/
+build/
+.env
+.venv
+*.log
+.DS_Store
